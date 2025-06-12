@@ -3,15 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Web del Equipo</title>
+    <title>Wiki Simple</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Nuestro increíble proyecto</h1>
+        <h1>Wiki de Ejemplo</h1>
     </header>
-    <main>
-        <p>Bienvenido a nuestra página de demostración.</p>
-    </main>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#referencias">Referencias</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <section id="introduccion">
+                <h2>Introducción</h2>
+                <p>Esta es una página tipo wiki creada solo con HTML y CSS. Aquí puedes encontrar información organizada en secciones.</p>
+            </section>
+            <section id="historia">
+                <h2>Historia</h2>
+                <p>Las wikis permiten la colaboración y edición de contenido de manera sencilla. Wikipedia es el ejemplo más famoso.</p>
+            </section>
+            <section id="caracteristicas">
+                <h2>Características</h2>
+                <ul>
+                    <li>Edición colaborativa</li>
+                    <li>Organización por temas</li>
+                    <li>Enlaces internos</li>
+                    <li>Fácil navegación</li>
+                </ul>
+            </section>
+            <section id="referencias">
+                <h2>Referencias</h2>
+                <p>Para más información, visita <a href="https://es.wikipedia.org/wiki/Wiki" target="_blank">Wikipedia</a>.</p>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
