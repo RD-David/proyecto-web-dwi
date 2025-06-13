@@ -1,0 +1,13 @@
+
+esto es para agregar los archivos
+git add .
+
+o si buscas agregar uno espesifico
+git add (nombre del archivo)
+
+para dar mensajes de que se han realizados cambios y mandar las modificaciones de los archivos de hace un commit (-m solo es oara nandar un mensaje)
+git commit -m "Mensaje a enviar"
+
+ahora si para subir los archivos de manera remota es con push
+
+git push origin main
