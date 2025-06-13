@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+        header {
+            background: #2d89ef;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background: #222;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .hero {
+            background: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            margin-bottom: 10px;
+        }
+        .productos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 30px 10px;
+        }
+        .producto {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            width: 220px;
+            padding: 20px;
+            text-align: center;
+        }
+        .producto img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        .producto h3 {
+            margin: 15px 0 10px 0;
+        }
+        .producto p {
+            color: #2d89ef;
+            font-weight: bold;
+        }
+        .producto button {
+            background: #2d89ef;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .producto button:hover {
+            background: #1b5fa7;
+        }
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tienda Online</h1>
+        <p>¡Bienvenido a la mejor tienda en línea!</p>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Productos</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <section class="hero">
+        <h1>Descubre nuestros productos</h1>
+        <p>Los mejores precios y la mejor calidad, solo aquí.</p>
+    </section>
+    <section class="productos">
+        <div class="producto">
+            <img src="https://via.placeholder.com/200x120" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>$199.00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="producto">
+            <img src="https://via.placeholder.com/200x120" alt="Producto 2">
+            <h3>Producto 2</h3>
+            <p>$299.00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="producto">
+            <img src="https://via.placeholder.com/200x120" alt="Producto 3">
+            <h3>Producto 3</h3>
+            <p>$399.00</p>
+            <button>Comprar</button>
+        </div>
+    </section>
+    <footer>
+        &copy; 2025 Tienda Online. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
