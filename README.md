@@ -33,7 +33,6 @@ Para garantizar un desarrollo ordenado y de alta calidad, nuestro equipo ha impl
     * Hemos definido dos ramas de desarrollo continuas, cada una asignada a un rol clave:
         * **`dev-html`**: Rama utilizada por el **Integrador (Raymundo Rivera)** para construir y modificar toda la estructura HTML de la wiki.
         * **`dev-css`**: Rama utilizada por el **Diseñador (Mario Mejía)** para trabajar en los aspectos visuales y de estilo (CSS).
-    * Para otras tareas, como actualizar esta documentación, se crean ramas temporales (ej: `docs`).
 
 3.  **Pull Requests (PRs)**:
     * Una vez que se completa una tarea en `dev-html` o `dev-css`, se abre un Pull Request para proponer la fusión de esos cambios hacia la rama `main`.
